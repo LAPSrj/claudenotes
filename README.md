@@ -22,9 +22,6 @@ The note stays above the prompt until you clear it or the session ends. The box 
 - Leave yourself a note on where you stopped before a break or at the end of the day.
 - Keep a constraint in view that you gave Claude earlier, like "don't touch the payments module", so you notice if it drifts.
 - Show a session's status with the border color, such as red for blocked and green for ready to review.
-
-For a label that stays the same for the whole session, like the ticket or client it's for, start Claude Code with `claude --name "..."` instead. The name shows in the prompt box, the `/resume` picker, and the terminal title.
-
 ## Install
 
 In a terminal, add this repo as a plugin marketplace and install the plugin:
