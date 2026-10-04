@@ -1,0 +1,2 @@
+# Type files Claude Code writes beside a plugin when it loads it
+plugins/*/.claude-plugin/types/

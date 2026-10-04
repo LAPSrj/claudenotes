@@ -1,0 +1,7 @@
+{
+  "name": "note",
+  "version": "0.1.0",
+  "description": "Pin a note in a box above the prompt with /note <text>; + appends a line, #color sets the border, /note alone clears it",
+  "author": { "name": "Leandro Amorim" },
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "claudenotes",
+  "owner": { "name": "Leandro Amorim" },
+  "description": "Claude Code plugins for keeping track of what each session is about",
+  "plugins": [
+    {
+      "name": "note",
+      "source": "./plugins/note",
+      "description": "Pin a note in a box above the Claude Code prompt with /note"
+    }
+  ]
+}
