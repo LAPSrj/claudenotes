@@ -12,7 +12,18 @@ When you run several Claude Code sessions at once, or come back to one after a b
 > _
 ```
 
-The note stays above the prompt until you clear it or the session ends.
+The note stays above the prompt until you clear it or the session ends. The box itself isn't sent to Claude, but each `/note` command you run is added to the conversation like any slash command, so Claude can read what you wrote.
+
+## What to use it for
+
+- Keep a list of what you still have to do or check in this session, adding items with `/note +` as they come up.
+- Track what the agent is doing right now when the work changes during the session.
+- Note what you're waiting on, like a deploy, a CI run, or a reply from a client.
+- Leave yourself a note on where you stopped before a break or at the end of the day.
+- Keep a constraint in view that you gave Claude earlier, like "don't touch the payments module", so you notice if it drifts.
+- Show a session's status with the border color, such as red for blocked and green for ready to review.
+
+For a label that stays the same for the whole session, like the ticket or client it's for, start Claude Code with `claude --name "..."` instead. The name shows in the prompt box, the `/resume` picker, and the terminal title.
 
 ## Install
 
